@@ -48,3 +48,9 @@
 .blog-preview:hover {
   background-color: #f2f2f2;
 }
+
+.blog-preview h2 {
+  color: #2b2d2fe1;
+  font-size: 150%;
+  margin-bottom: 0.4rem;
+}
