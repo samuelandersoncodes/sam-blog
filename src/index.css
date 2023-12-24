@@ -44,3 +44,7 @@
   padding: 0.8rem 0;
   margin: 0 1rem;
 }
+
+.blog-preview:hover {
+  background-color: #f2f2f2;
+}
