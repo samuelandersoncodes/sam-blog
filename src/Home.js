@@ -13,6 +13,7 @@ const Home = () => {
       })
       .then(data => {
         setBlogs(data)
+        setIsPending(false);
       });
   }, []);
 
