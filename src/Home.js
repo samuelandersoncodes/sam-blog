@@ -7,14 +7,16 @@ const Home = () => {
   const [isPending, setIsPending] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:8000/blogs')
-      .then(res => {
-        return res.json();
-      })
-      .then(data => {
-        setBlogs(data)
-        setIsPending(false);
-      });
+    setTimeout(() => {
+      fetch('http://localhost:8000/blogs')
+        .then(res => {
+          return res.json();
+        })
+        .then(data => {
+          setBlogs(data)
+          setIsPending(false);
+        });
+    }, 600);
   }, []);
 
   return (
