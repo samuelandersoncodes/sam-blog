@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react';
+
 const useFetch = () => {
 
   const [blogs, setBlogs] = useState(null);
