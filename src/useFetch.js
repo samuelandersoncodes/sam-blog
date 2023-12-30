@@ -26,6 +26,7 @@ const useFetch = () => {
         });
     }, 600);
   }, []);
+  return { data, isPending, error };
 };
 
 export default useFetch;
