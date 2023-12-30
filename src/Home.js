@@ -19,6 +19,7 @@ const Home = () => {
         .then(data => {
           setBlogs(data)
           setIsPending(false);
+          setError(null);
         })
         .catch(err => {
           setIsPending(false);
