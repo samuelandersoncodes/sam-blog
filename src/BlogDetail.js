@@ -1,9 +1,13 @@
+import { useParams } from "react-router-dom";
+
 const BlogDetail = () => {
-  return ( 
+  const { id } = useParams();
+
+  return (
     <div className="blog-detail">
-      <h2>Blog Detail</h2>
+      <h2>Blog Detail - { id }</h2>
     </div>
-   );
+  );
 }
- 
+
 export default BlogDetail;
