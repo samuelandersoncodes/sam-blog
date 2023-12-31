@@ -54,3 +54,7 @@
   font-size: 150%;
   margin-bottom: 0.4rem;
 }
+
+.blog-preview a {
+  text-decoration: none;
+}
