@@ -7,7 +7,11 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Home />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
         <div className="content">
         </div>
       </div>
