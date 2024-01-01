@@ -7,7 +7,7 @@ const BlogDetail = () => {
 
   return (
     <div className="blog-detail">
-      <h2>Blog Detail - {id}</h2>
+      { isPending && <div>Loading...</div> }
     </div>
   );
 }
