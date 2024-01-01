@@ -66,3 +66,8 @@
   text-align: center;
   padding-top: 1rem;
 }
+
+.create h2 {
+  font-size: 150%;
+  margin-bottom: 1rem;
+}
