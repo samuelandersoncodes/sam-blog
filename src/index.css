@@ -58,3 +58,11 @@
 .blog-preview a {
   text-decoration: none;
 }
+
+/* Create new blog form */
+.create {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  padding-top: 1rem;
+}
