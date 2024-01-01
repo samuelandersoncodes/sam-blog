@@ -3,6 +3,7 @@ import { useState } from 'react';
 const Create = () => {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
+  const [author, setAuthor] = useState('Sam');
 
   return (
     <div className="create">
