@@ -71,3 +71,14 @@
   font-size: 150%;
   margin-bottom: 1rem;
 }
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  margin: 10px 0;
+  border: 1px solid #e2e2e2;
+  display: block;
+  box-sizing: border-box;
+}
