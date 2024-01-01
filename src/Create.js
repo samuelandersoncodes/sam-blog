@@ -8,6 +8,10 @@ const Create = () => {
           type="text"
           required
         />
+        <label>Blog body:</label>
+        <textarea
+          required
+        ></textarea>
       </form>
     </div>
    );
