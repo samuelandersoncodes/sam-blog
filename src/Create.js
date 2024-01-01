@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 const Create = () => {
+  const [title, setTitle] = useState('');
 
   return ( 
     <div className="create">
