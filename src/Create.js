@@ -3,7 +3,7 @@ import { useState } from 'react';
 const Create = () => {
   const [title, setTitle] = useState('');
 
-  return ( 
+  return (
     <div className="create">
       <h2>Add a New Blog</h2>
       <form>
@@ -11,6 +11,8 @@ const Create = () => {
         <input
           type="text"
           required
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
         />
         <label>Blog body:</label>
         <textarea
@@ -24,7 +26,7 @@ const Create = () => {
         <button>Add Blog</button>
       </form>
     </div>
-   );
+  );
 }
- 
+
 export default Create;
