@@ -12,6 +12,11 @@ const Create = () => {
         <textarea
           required
         ></textarea>
+        <label>Blog author:</label>
+        <select>
+          <option value="Sam">Sam</option>
+          <option value="Andy">Andy</option>
+        </select>
       </form>
     </div>
    );
