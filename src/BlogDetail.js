@@ -8,6 +8,7 @@ const BlogDetail = () => {
   return (
     <div className="blog-detail">
       { isPending && <div>Loading...</div> }
+      { error && <div>{ error }</div> }
     </div>
   );
 }
