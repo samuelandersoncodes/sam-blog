@@ -14,6 +14,7 @@ const BlogDetail = () => {
           <h2>{ blog.title }</h2>
           <p>Written by { blog.author }</p>
           <div>{ blog.body }</div>
+          <button>Delete Blog</button>
         </article>
       )}
     </div>
