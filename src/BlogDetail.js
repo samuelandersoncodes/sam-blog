@@ -7,6 +7,8 @@ const BlogDetail = () => {
   const handleClick = () => {
     fetch('http://localhost:8000/blogs/' + blog.id, {
       method: 'DELETE'
+    }).then(() => {
+      history.push('/');
     })
   };
 
