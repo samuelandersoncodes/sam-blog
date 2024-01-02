@@ -1,22 +1,28 @@
 {
   "blogs": [
     {
-      "title": "My Django Journey", 
+      "title": "My Django Journey",
       "body": "I have built 2 projects",
       "author": "Sam",
       "id": 1
     },
     {
-      "title": "My React Journey", 
+      "title": "My React Journey",
       "body": "I just started",
       "author": "Sam",
       "id": 2
     },
     {
-      "title": "Unittest", 
+      "title": "Unittest",
       "body": "I always use it",
       "author": "Sam",
       "id": 3
+    },
+    {
+      "title": "JQuery",
+      "body": "It seemed obsolete but I found it very helpful when implementing payment systems.",
+      "author": "Andy",
+      "id": 4
     }
   ]
 }
